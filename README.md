@@ -17,6 +17,7 @@
    - Gradle will take care of downloading these dependencies for you.
 
 3. This FPTHelper requires Cognito to authorize to Amazon Lex to post content.  Use Amazon Cognito to create a new identity pool:
+	
 	3.1. In the [Amazon Cognito Console](https://console.aws.amazon.com/cognito/), press the `Manage Federated Identities` button and on the resulting page press the `Create new identity pool` button.
 	
 	3.2. Give your identity pool a name and ensure that `Enable access to unauthenticated identities` under the `Unauthenticated identities` section is checked.  This allows the FPTHelper application to assume the unauthenticated role associated with this identity pool.  Press the `Create Pool` button to create your identity pool.
