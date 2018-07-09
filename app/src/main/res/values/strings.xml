@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lex Sample</string>
+    <string name="bot_name">FPTHelperMOBILEHUB</string>
+    <string name="bot_alias">dev</string>
+    <string name="identity_id_test">us-west-2:c370ff8f-8386-45f4-880c-1a60a99eb8a9</string>
+    <string name="cognito_region">us-west-2</string>
+    <string name="lex_region">us-west-2</string>
+    <string name="screen_options_main_message">Amazon Lex</string>
+</resources>
